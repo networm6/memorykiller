@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:17
+-keep class as.mke.eatmem.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:46
+-keepclassmembers class * { *** doo(...); }
+

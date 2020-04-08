@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="13dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="原理说明"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textSize="22sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="调用so，疯狂占用内存，实现短时间内使系统内存爆满，这时系统会杀死90％的进程。"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textSize="16sp"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="目前支持cpu框架"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="#FF000000"
+		android:textSize="22sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="armeabi-v7a，x86，x86_64，arm64-v8a"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textSize="16sp"
+		android:layout_margin="3dp"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center">
+
+		<Button
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="开  始"
+			android:onClick="doo"
+			android:textStyle="bold|normal"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
